@@ -1,0 +1,106 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.sky {
+  background-image: url(./img/background.png);
+  background-size: contain;
+  /* background-repeat: */
+  height: 100rem;
+  width: 100%;
+}
+
+main p {
+  padding: 2.5rem;
+  margin: 1rem, 1.5rem, 1rem, 1.5rem;
+}
+
+.splash-header {
+  background-image: url(./img/header.png);
+  background-size: cover;
+  width: 100%;
+  height: 5.38rem;
+}
+
+.scroll {
+  background-image: url(./img/scroll.png);
+  background-size: cover;
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+input {
+  height: 1rem;
+  width: 15rem;
+  margin: 0.5rem;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25%;
+  padding-bottom: 10%;
+  margin-top: 1rem;
+}
+
+.pagetype {
+  text-align: center;
+  margin-right: 1.5rem;
+}
+
+.wave-text {
+  color: whitesmoke;
+}
+
+.backwaves {
+  background-image: url(./img/backwave.png);
+  background-size: 145%;
+  width: 100%;
+  height: 6rem;
+  margin-top: 8rem;
+  margin-bottom: 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1.5rem;
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 3rem;
+  left: 0;
+}
+.midwaves {
+  background-image: url(./img/midwaves.png);
+  background-size: 125%;
+  width: 100%;
+  height: 5.25rem;
+  margin-top: -5.2rem;
+  margin-bottom: 0rem;
+  position: fixed;
+  bottom: 2.65rem;
+  left: 0;
+}
+
+.frontwaves {
+  background-image: url(./img/frontwaves.png);
+  background-size: 125%;
+  width: 100%;
+  height: 5.25rem;
+  margin-top: -3rem;
+  margin-bottom: 0rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
